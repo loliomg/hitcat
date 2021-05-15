@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>敲打屑猫猫</title>
+</head>
+<body>
+<script type="module">
+    import init from "./pkg/hitcat.js";
+    init("./pkg/hitcat_bg.wasm").then(function (wasm) {
+        wasm.wasm_run();
+    });
+</script>
+</body>
+</html>

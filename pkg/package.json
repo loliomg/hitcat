@@ -1,0 +1,15 @@
+{
+  "name": "hitcat",
+  "collaborators": [
+    "soeur <juzi201314@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "hitcat_bg.wasm",
+    "hitcat.js",
+    "hitcat.d.ts"
+  ],
+  "module": "hitcat.js",
+  "types": "hitcat.d.ts",
+  "sideEffects": false
+}
